@@ -1,0 +1,44 @@
+{ 
+  "video" :[
+            {
+              "name": "Google",
+              "office": "USA"
+            },
+            {
+              "name": "Yahoo",
+              "office": "USA"
+            },
+            {
+              "name": "Alibaba",
+              "office": "China"
+            },
+            {
+              "name": "Facebook",
+              "office": "USA"
+            },
+            {
+              "name": "Twitter",
+              "office": "USA"
+            },
+            {
+              "name": "Mercedez",
+              "office": "Germany"
+            },
+            {
+              "name": "Antara",
+              "office": "Indonesia"
+            },
+            {
+              "name": "Fly Emirates",
+              "office": "Abu Dhabi"
+            },
+            {
+              "name": "Qatar Airways",
+              "office": "Qatar"
+            },
+            {
+              "name": "AlJazeera",
+              "office": "Egypt"
+            }
+          ]
+}

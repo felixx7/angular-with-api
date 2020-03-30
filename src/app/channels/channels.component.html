@@ -1,0 +1,30 @@
+<div class="white-text font-title">Channels</div>
+<div class="pull-right white-text"> Browse All Channels</div>
+
+<hr class="hr-style">
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+  <table width="100%" color="white">
+    <tr *ngFor="let plane of planes  | slice:7:14; let i=index;">
+      <td>
+        <div class="white mh red-text" style="height:100px;padding:10px;">
+          {{ plane.nameAirline }}, {{ plane.codeIataAirline }}, {{ plane.codeIso2Country }}
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+  <table width="100%" color="white">
+    <tr *ngFor="let plane of planes  | slice:0:7; let i=index;">
+      <td>
+        <div class="white mh red-text" style="height:100px;padding:10px;">
+          {{ plane.nameAirline }}, {{ plane.codeIataAirline }}, {{ plane.codeIso2Country }}
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<hr class="hr-style">

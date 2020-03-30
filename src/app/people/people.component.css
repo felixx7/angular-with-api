@@ -1,0 +1,15 @@
+.box-small{
+  width:100%;
+  min-height:200px;
+  background:#f4e3cf;
+}
+
+.box-big{
+  width:100%;
+  min-height:403px;
+  background:#f4e3cf;
+}
+
+.no-pad{
+  padding:2px;
+}

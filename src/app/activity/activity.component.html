@@ -1,0 +1,15 @@
+<div class="white-text font-title">Activity</div> 
+<div class="pull-right white-text"> View Timeline / Filter Activity</div>
+<hr class="hr-style">
+<table>
+  <tr *ngFor="let plane of planes  | slice:0:7; let i=index;">
+
+    <td>
+      <div class="white"style="width:100px;height:60px;margin:2px;"></div>
+    </td>
+    <td class="font-white" style="padding:3px;">
+      {{ plane.nameAirline }}, {{ plane.codeIataAirline }}, {{ plane.codeIso2Country }}
+    </td>
+  </tr>
+</table>
+<hr class="hr-style">
